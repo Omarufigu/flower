@@ -1,0 +1,40 @@
+import turtle
+
+wilson=turtle.Turtle()
+wilson.pensize(5)
+wilson.color('blue')
+for i in range(8):
+  for x in range(180):
+    wilson.forward(1)
+    wilson.left(1)
+  wilson.right(45)
+wilson.color('gold')
+wilson.left(45)
+for i in range(8):
+  for x in range(180):
+    wilson.forward(1)
+    wilson.left(1)
+  wilson.left(45)
+wilson.color('red')
+wilson.penup()
+wilson.left(90)
+wilson.forward(70)
+wilson.right(45)
+wilson.forward(13)
+wilson.right(90)
+wilson.forward(27)
+wilson.pendown()
+for i in range(8):
+  for x in range(3):
+    wilson.forward(35)
+    wilson.left(120)
+  wilson.left(45)
+wilson.color('green')
+for v in range(4):
+  for i in range(4):
+    for x in range(180):
+      wilson.forward(1)
+      wilson.left(1)
+    wilson.left(90)
+  wilson.left(90)
+wilson.color('pink')
